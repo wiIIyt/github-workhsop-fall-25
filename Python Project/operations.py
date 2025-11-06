@@ -12,4 +12,9 @@ def divide(a, b):
         return "Error: Division by zero!"
     return a / b
 
+def mod(a, b):
+    if b == 0:
+        return "Error: Mod by zero!"
+    return a%b
+
 #todo: add future operations here in branch called 'adding-{name of operation}-operation'
